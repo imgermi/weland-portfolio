@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <a href="">
-        <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="logo" width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
           <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
           <rect width="48.7752" height="49.0289" fill="black" fill-opacity="0"/>

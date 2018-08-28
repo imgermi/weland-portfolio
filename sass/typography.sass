@@ -1,12 +1,37 @@
 // main: main.sass
 
+.hero__title,
+.hero__sub 
+  text-align: center
+
 .hero__title
   color: $black
   font-size: 48px
   font-weight: 500
   line-height: 52px
+  margin-bottom: 30px
 
 .hero__sub
   font-size: 34px
   font-weight: 400
   line-height: normal
+
+.hero__title + .hero__sub
+  padding-top: 100px
+  position: relative
+  &:before
+    background: transparentize($weland, 0.2)
+    content: ''
+    display: block
+    height: 70px
+    left: calc(50% - 1px)
+    position: absolute
+    top: 0
+    width: 2px
+
+.section__title
+  color: $black
+  font-size: 42px
+  font-weight: 500
+  line-height: 54px
+
