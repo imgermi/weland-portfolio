@@ -11,8 +11,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://use.typekit.net/bli3yav.css' }
-
+      { rel: 'stylesheet', href: 'https://use.typekit.net/bli3yav.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,600' }
     ]
   },
   css: [

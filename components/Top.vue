@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-      <a href="">
+      <nuxt-link to="/">
         <svg class="logo" width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
           <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
@@ -18,7 +18,7 @@
           <path d="M106.292 33.3193V8.48819L123.142 26.098V10.1352H126.689V34.7129L109.713 17.1031V33.3193H106.292Z" fill="#BE0042"/>
           <path d="M132.137 33.3194V10.1352H136.951C139.231 10.1352 141.132 10.3885 142.525 10.7686C143.919 11.2754 145.313 12.0355 146.453 13.049C148.86 15.2027 150 18.1166 150 21.6639C150 25.2112 148.733 28.1251 146.326 30.2788C145.059 31.419 143.792 32.1791 142.399 32.5592C141.132 32.9393 139.358 33.1927 136.951 33.1927H132.137V33.3194ZM135.684 30.0254H137.204C138.725 30.0254 140.118 29.8987 141.132 29.5187C142.145 29.1386 143.159 28.6318 143.919 27.8717C145.693 26.3514 146.453 24.1977 146.453 21.7906C146.453 19.2568 145.566 17.2298 143.919 15.5828C142.399 14.1892 140.118 13.4291 137.204 13.4291H135.684V30.0254Z" fill="#BE0042"/>
         </svg>
-      </a>
+      </nuxt-link>
       <button class="hamburger hamburger--elastic" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
@@ -27,19 +27,19 @@
       <nav>
         <ul>
           <li>
-            <a href="">Trabajos</a>
+            <nuxt-link to="/trabajos">Trabajos</nuxt-link>
           </li>
           <li>
-            <a href="">Servicios</a>
+            <nuxt-link to="/servicios">Servicios</nuxt-link>
           </li>
           <li>
-            <a href="">Nosotros</a>
+            <nuxt-link to="/nosotros">Nosotros</nuxt-link>
           </li>
           <li>
-            <a href="">Blog</a>
+            <nuxt-link to="/blog">Blog</nuxt-link>
           </li>
           <li>
-            <a href="">Contacto</a>
+            <nuxt-link to="/contacto">Contacto</nuxt-link>
           </li>
         </ul>
       </nav>

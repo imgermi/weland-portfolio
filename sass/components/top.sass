@@ -34,6 +34,9 @@ header
             z-index: -1
           &:hover:before
             height: 10px
+          &.nuxt-link-active
+            &:before
+              height: 10px
         &:last-of-type
           @media(min-width: 768px)
             padding-right: 0  

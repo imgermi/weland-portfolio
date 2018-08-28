@@ -10,7 +10,7 @@
       <div class="container">
         <article class="featured__img"></article>
         <article class="featured__text">
-          <span>Proyecto destacado</span>
+          <span class="section__pretitle">Proyecto destacado</span>
           <h3 class="section__title">Fucer App</h3>
           <ul class="services__list">
             <li>Estrategia de producto</li>
@@ -57,5 +57,16 @@
         </article>
       </div>
     </section>
+    <Contacto/>
   </main>
 </template>
+
+<script>
+  import Contacto from '~/components/Contacto.vue'
+
+  export default {
+    components: {
+      Contacto
+    }
+  }
+</script>
