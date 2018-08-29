@@ -8,7 +8,9 @@
     </section>
     <section class="featured">
       <div class="container">
-        <article class="featured__img"></article>
+        <article class="featured__img">
+          <img src="~/assets/images/case-studies/fucer/mockup.jpg" alt="">
+        </article>
         <article class="featured__text">
           <span class="section__pretitle">Proyecto destacado</span>
           <h3 class="section__title">Fucer App</h3>
@@ -18,7 +20,8 @@
             <li>Desarrollo</li>
             <li>Lanzamiento</li>
           </ul>
-          <a href="" class="btn">Ver más</a>
+          <!-- <a href="" class="btn">Ver más</a> -->
+          <nuxt-link to="/" class="btn__underlined">Ver más</nuxt-link>
         </article>
       </div>
     </section>

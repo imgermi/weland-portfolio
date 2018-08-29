@@ -7,6 +7,26 @@
       height: 140px  
   .featured
     margin-bottom: 50px
+    .container
+      @media(min-width: 768px)
+        display: flex
+        flex-direction: row-reverse
+        align-items: center
+    &__img
+      margin-bottom: 35px
+      flex: 1.6
+      @media(min-width: 768px)
+        margin: 0
+      img
+        width: 100%
+    &__text
+      flex: 1
+      @media(min-width: 768px)
+        padding-right: 50px
+      @media(min-width: 992px)
+        padding-right: 200px
+      .services__list
+        margin-bottom: 35px
   .services
     padding: 50px 0
   .blog
