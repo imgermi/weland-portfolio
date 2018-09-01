@@ -45,17 +45,20 @@
           <p>Tratamos de documentar todo nuestro proceso de trabajo: desde el análisis, el trato con el cliente, los mates con o sin azúcar y cómo nos llevamos con cada desafío.</p>
         </article> 
         <article>
-          <a href="">
-            <p>Titulo artículo</p>
-            <a href="">> Ver más</a>
+          <a href="" class="blog__link">
+            <span class="blog__link--date">10/7/2018</span>
+            <p class="blog__link--title">Agencia vs Cliente: ¿Quien tiene la <br> última palabra?</p>
+            <small class="blog__link--arrow">></small>
           </a>
-          <a href="">
-            <p>Titulo artículo</p>
-            <a href="">> Ver más</a>
+          <a href="" class="blog__link">
+            <span class="blog__link--date">10/7/2018</span>
+            <p class="blog__link--title">Aprender haciendo: desarrollando habilidades cuando la situación lo demanda</p>
+            <small class="blog__link--arrow">></small>
           </a>
-          <a href="">
-            <p>Titulo artículo</p>
-            <a href="">> Ver más</a>
+          <a href="" class="blog__link">
+            <span class="blog__link--date">10/7/2018</span>
+            <p class="blog__link--title">¿Desde que momento somos Consultores en Marketing Digital?</p>
+            <small class="blog__link--arrow">></small>
           </a>                    
         </article>
       </div>

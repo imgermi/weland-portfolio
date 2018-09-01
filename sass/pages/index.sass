@@ -29,6 +29,56 @@
         margin-bottom: 35px
   .services
     padding: 50px 0
+    .container
+      display: flex
+      align-items: flex-start
+      justify-content: space-between
+      position: relative
+      @media(max-width: 767px)
+        display: block
+      &:before
+        content: ''
+        width: 1px
+        height: 100%
+        background: $weland
+        position: absolute
+        left: 20px
+        top: 60%
+        display: block
+        @media(max-width: 767px)
+          left: 15px
+          top: 70px
+      article
+        &:first-of-type
+          flex: 7
+        &:last-of-type
+          flex: 5
+          @media(max-width: 767px)
+            padding-left: 20px
+          p
+            font-size: 22px
+            line-height: 32px
+            margin-bottom: 25px
+            @media(max-width: 767px)
+              font-size: 18px
   .blog
     background: #EEF2F5
     padding: 100px 0
+    .container
+      display: flex
+      justify-content: space-between
+      @media(max-width: 767px)
+        display: block
+      article
+        &:first-of-type 
+          width: 40%
+          @media(max-width: 767px)
+            width: 100%
+          p
+            font-size: 22px
+            line-height: 32px
+            margin-bottom: 25px
+        &:last-of-type
+          width: 50%
+          @media(max-width: 767px)
+            width: 100%

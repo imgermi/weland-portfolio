@@ -2,15 +2,35 @@
   <footer>
     <div class="container">
       <ul class="social">
-        <li><a href="" target="_blank">Medium</a></li>
-        <li><a href="" target="_blank">Linkedin</a></li>
-        <li><a href="" target="_blank">Twitter</a></li>
-        <li><a href="" target="_blank">Facebook</a></li>
-        <li><a href="" target="_blank">Instagram</a></li>
+        <li>
+          <a href="" target="_blank">
+            <img src="~/assets/icons/instagram.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            <img src="~/assets/icons/fb.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            <img src="~/assets/icons/linkedin.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            <img src="~/assets/icons/medium.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            <img src="~/assets/icons/tw.svg" alt="">
+          </a>
+        </li>
       </ul>
       <div>
-        <nuxt-link to="/">
-          <svg class="logo" width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <nuxt-link to="/" class="logo">
+          <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
             <rect width="150" height="49.0289" fill="black" fill-opacity="0"/>
             <rect width="48.7752" height="49.0289" fill="black" fill-opacity="0"/>

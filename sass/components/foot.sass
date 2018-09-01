@@ -15,14 +15,22 @@ footer
       align-items: center
     li
       @media(min-width: 768px)
-        padding: 0 25px
+        padding: 0 35px
+      a
+        transition: all 150ms ease-in
+        display: block
+        &:hover
+          opacity: 0.7
+          transform: translateY(-1px)
+        img
+          display: block
   div
     padding: 30px 0
     @media(min-width: 768px)
       align-items: center
       display: flex
       justify-content: space-between
-    a
+    a.logo
       width: 90px
       svg
         display: block

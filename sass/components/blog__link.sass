@@ -1,0 +1,46 @@
+// main: ../main.sass
+
+.blog__link
+  padding-bottom: 20px
+  border-bottom: 1px solid #ccc
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+  position: relative
+  transition: all 250ms ease-in-out
+  &:before
+    content: ''
+    display: block
+    width: 0
+    height: 1px
+    position: absolute
+    left: 0
+    bottom: 0
+    background: $weland
+    transition: all 250ms ease-in-out
+  &:hover
+    transform: scale(0.97)
+    &:before
+      width: 100%
+    .blog__link--date
+      padding-left: 5px
+    .blog__link--arrow
+      margin-right: 5px
+  &:not(:last-of-type)
+    margin-bottom: 30px
+  &--date
+    font-size: 12px
+    color: $lightBlack
+    display: block
+    transition: all 150ms ease-in-out
+  &--title
+    font-size: 22px
+    line-height: 28px
+    color: $black
+    margin: 0 43px
+    flex: 1
+  &--arrow
+    display: block
+    font-size: 18px
+    transition: all 150ms ease-in-out
+    color: $lightBlack
