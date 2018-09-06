@@ -9,13 +9,13 @@ footer
     border-bottom: 1px solid #ccc
     padding: 50px 0
     text-align: center
-    @media(min-width: 768px)
-      display: flex
-      justify-content: center
-      align-items: center
+    display: flex
+    justify-content: center
+    align-items: center
     li
-      @media(min-width: 768px)
-        padding: 0 35px
+      padding: 0 35px
+      @media(max-width: 767px)
+        padding: 0 15px
       a
         transition: all 150ms ease-in
         display: block
@@ -32,6 +32,9 @@ footer
       justify-content: space-between
     a.logo
       width: 90px
+      @media(max-width: 767px)
+        display: block
+        margin: 0 auto 15px
       svg
         display: block
         width: 100%
@@ -45,5 +48,7 @@ footer
             padding: 0 20px
             &:last-child
               padding-right: 0
+          @media(max-width: 767px)
+            padding: 5px 0
           a
             color: $lightBlack

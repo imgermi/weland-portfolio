@@ -45,9 +45,12 @@
         left: 20px
         top: 60%
         display: block
+        @media(max-width: 991px)
+          top: 42%
         @media(max-width: 767px)
           left: 15px
           top: 70px
+          height: 120%
       article
         &:first-of-type
           flex: 7
@@ -78,6 +81,9 @@
             font-size: 22px
             line-height: 32px
             margin-bottom: 25px
+            @media(max-width: 767px)
+              font-size: 18px
+              line-height: 32px
         &:last-of-type
           width: 50%
           @media(max-width: 767px)

@@ -8,6 +8,8 @@
   justify-content: space-between
   position: relative
   transition: all 250ms ease-in-out
+  @media(max-width: 767px)
+    display: block
   &:before
     content: ''
     display: block
@@ -39,8 +41,16 @@
     color: $black
     margin: 0 43px
     flex: 1
+    @media(max-width: 991px)
+      margin: 0 20px
+    @media(max-width: 767px)
+      margin: 0
+      br
+        display: none
   &--arrow
     display: block
     font-size: 18px
     transition: all 150ms ease-in-out
     color: $lightBlack
+    @media(max-width: 767px)
+      display: none
