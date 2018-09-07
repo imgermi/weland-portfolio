@@ -29,6 +29,7 @@ body
   -moz-osx-font-smoothing: grayscale
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
+  position: relative
 
 .container
   margin: auto
@@ -99,3 +100,30 @@ body
 .page-enter,
 .page-leave-active 
   opacity: 0
+
+.wave
+  pointer-events: none
+  &.top-wave
+    position: absolute
+    top: 0
+    right: 0
+    svg
+      path:first-of-type
+        animation: waving 5s infinite ease-in-out
+      path:last-of-type
+        animation: waving 4s infinite ease-out
+  &.bottom-wave
+    position: absolute
+    left: 0
+    bottom: 0
+
+@keyframes waving
+  0% 
+    transform: scale(1)
+  
+  25% 
+    transform: scale(1.2)
+  
+  100% 
+    transform: scale(1)
+    
