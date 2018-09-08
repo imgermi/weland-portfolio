@@ -11,6 +11,8 @@ $white: #EFF4F3
 @import 'components/foot.sass'
 @import 'hero.sass'
 @import 'pages/index.sass'
+@import 'pages/trabajos.sass'
+@import 'pages/servicios.sass'
 
 * 
   box-sizing: border-box
@@ -30,6 +32,7 @@ body
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
   position: relative
+  overflow-x: hidden
 
 .container
   margin: auto
@@ -107,22 +110,35 @@ body
     position: absolute
     top: 0
     right: 0
+    z-index: -2
+    @media(max-width: 991px)
+      width: 70%
+    @media(max-width: 767px)
+      width: 60%
     svg
+      @media(max-width: 991px)
+        width: 100%
+        height: 100%
       path:first-of-type
-        animation: waving 5s infinite ease-in-out
+        animation: wavingOut 5s infinite ease-in
       path:last-of-type
-        animation: waving 4s infinite ease-out
-  &.bottom-wave
-    position: absolute
-    left: 0
-    bottom: 0
+        animation: wavingIn 4s infinite ease-out
 
-@keyframes waving
+@keyframes wavingOut
   0% 
     transform: scale(1)
   
   25% 
     transform: scale(1.2)
+  
+  100% 
+    transform: scale(1)
+@keyframes wavingIn
+  0% 
+    transform: scale(1)
+  
+  25% 
+    transform: scale(2.2)
   
   100% 
     transform: scale(1)
