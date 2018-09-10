@@ -10,3 +10,39 @@
         &:nth-child(2)
           fill: #EAEDF2
           fill-opacity: 0.4
+  
+.trabajos__listado
+  padding-bottom: 40px
+  .trabajos-container
+    display: flex
+    flex-wrap: wrap
+    margin: 0 -10px
+    @media(max-width: 767px)
+      margin: 0
+.trabajos__listado--trabajo
+  width: calc(50% - 20px)
+  margin: 0 10px 60px
+  text-align: center
+  transition: all 250ms ease-in
+  @media(max-width: 767px)
+    width: 100%
+    margin-left: 0
+    margin-right: 0
+  &:hover
+    opacity: 0.7
+    transform: translateY(-1.5px)
+  &:active
+    opacity: 1
+    transform: scale(0.9)
+  img
+    display: block
+    width: 100%
+    margin-bottom: 25px
+  h3
+    font-size: 18px
+    color: $black
+    font-weight: 600
+  span
+    color: $lightBlack
+    display: block
+    font-size: 16px
