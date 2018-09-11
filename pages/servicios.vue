@@ -17,6 +17,62 @@
         <h2 class="hero__sub">Creamos marcas, construimos <br/> productos, y también hacemos <br/> cosas de marketing.</h2>
       </div>
     </section>
+    <section class="servicios-band">
+      <div class="container">
+        <div class="servicio">
+          <article class="servicio__container">
+            <h3>Marcas</h3>
+            <p>Lograr que las personas se enamoren de una empresa a través de una marca es un desafío gigante y a la vez hermoso. Una buena marca necesita ser honesta y crear una promesa que pueda cumplir; sí, también creamos promesas.</p>
+            <ul class="services__list">
+              <li>Naming</li>
+              <li>Logo</li>
+              <li>Branding</li>
+              <li>Storytelling</li>
+            </ul>             
+          </article>
+        </div>
+        <div class="servicio">
+          <article class="servicio__container"> 
+            <h3>Productos digitales</h3>
+            <p>Hoy en día, apretamos un botón y se nos aparece un auto en la puerta de nuestra casa, añadimos un producto a nuestro carrito de compras y tenemos la opción de pagarlo como querramos, estamos parados en una esquina y buscamos una cervecería rockera en una app. Todas esas cosas se pueden hacer, y nosotros sabemos cómo: creando productos digitales que nos hacen la vida más fácil, y mejor.</p>
+            <ul class="services__list">
+              <li>Sitios Web</li>
+              <li>E-commerce</li>
+              <li>Mobile Apps</li>
+            </ul>
+          </article>
+        </div>
+        <div class="servicio">
+          <article class="servicio__container">
+            <h3>Cosas de marketing</h3>
+            <p>En verdad el título correcto sería: “Posicionamos esos productos digitales que construimos previamente, pero la realidad es que hacemos bastante más que eso” pero quedaba muy largo. Nos enfocamos en transmitirle a tu público el mensaje correcto de la manera correcta. A veces eso significa trabajar tu posicionamiento en Google Ads, Facebook Ads, Instagram Ads y más ads. También podemos hacer una estrategia extensa en redes sociales.</p>
+            <ul class="services__list">
+              <li>AdWords</li>
+              <li>Community Management</li>
+              <li>Social Ads</li>
+              <li>Content Strategy</li>
+            </ul>
+          </article>
+        </div>      
+      </div>
+    </section>
+    <section class="trabajos__listado">
+      <div class="container">
+        <h4 class="section__title">Algunas de las cosas <br> que hicimos</h4>
+        <div class="trabajos-container">
+          <nuxt-link to="" class="trabajos__listado--trabajo">
+            <img src="~/assets/images/case-studies/vitroblock/vitroblock-mockup.jpg" alt="">
+            <h3>Vitroblock</h3>
+            <span>Consultoría Google Ads</span>
+          </nuxt-link>
+          <nuxt-link to="" class="trabajos__listado--trabajo">
+            <img src="~/assets/images/case-studies/vendexa/vendexa-interiores-mockup.jpg" alt="">
+            <h3>Vendexa Interiores</h3>
+            <span>Tienda Online</span>
+          </nuxt-link>                    
+        </div>
+      </div>
+    </section>
     <Contacto/>
   </main>
 </template>

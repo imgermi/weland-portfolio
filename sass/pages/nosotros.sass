@@ -1,0 +1,36 @@
+// main: ../main.sass
+
+.nosotros__checklist
+  max-width: 600px
+  margin: auto
+  padding-bottom: 100px
+  ul
+    margin-bottom: 75px
+    li
+      position: relative
+      padding-left: 55px
+      margin-bottom: 35px
+      font-size: 18px
+      line-height: 28px
+      &:before
+        content: ''
+        background: url('~/assets/icons/check.svg')
+        background-size: contain
+        background-repeat: no-repeat
+        display: block
+        width: 35px
+        height: 38px
+        position: absolute
+        left: 0
+        top: 5px
+  .quote
+    font-size: 24px
+    line-height: 34px
+    position: relative
+    border-left: 3px solid $weland
+    padding-left: 25px
+    @media(max-width: 767px)
+      font-size: 20px
+      line-height: 30px
+      padding-left: 20px
+      border-left: 2px solid $weland
