@@ -1,0 +1,112 @@
+// main: main.sass
+
+.contacto
+  form
+    margin-top: 25px
+    margin-bottom: 100px
+
+form
+  max-width: 600px
+  margin: auto
+  .group 			  
+    position: relative 
+    margin-bottom: 45px 
+  .bar 	
+    position: relative
+    display: block 
+    width: 100%
+  .bar:before, .bar:after 	
+    content: ''
+    height: 2px 
+    width: 0
+    bottom: 1px 
+    position: absolute
+    background: $weland 
+    transition: 0.2s ease all 
+    -moz-transition: 0.2s ease all 
+    -webkit-transition: 0.2s ease all
+  .bar:before 
+    left: 50%
+  .bar:after 
+    right: 50% 
+  .highlight 
+    position: absolute
+    height: 60% 
+    width: 100%
+    top: 25% 
+    left: 0
+    pointer-events: none
+    opacity: 0.5
+  button
+    background: transparent
+    border: 0
+    cursor: pointer
+
+input, textarea 				
+  font-size: 16px
+  padding: 10px 10px 12px 0
+  display: block
+  width: 100%
+  border: none
+  color: $lightBlack
+  border-bottom: 1px solid rgba(144,158,167,.5)
+
+input:focus, textarea:focus	
+  outline: none 
+
+label 				 
+  color: #6b6e77
+  font-size: 16px
+  font-weight: normal
+  position: absolute
+  pointer-events: none
+  left: 0
+  top: 10px
+  transition: 0.2s ease all 
+  -moz-transition: 0.2s ease all 
+  -webkit-transition: 0.2s ease all
+
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label 		
+  top: -20px
+  font-size: 14px
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after,
+textarea:focus ~ .bar:before, textarea:focus ~ .bar:after 
+  width: 50%
+
+
+/* active state */
+input:focus ~ .highlight,
+textarea:focus ~ .highlight, 
+  -webkit-animation: inputHighlighter 0.3s ease
+  -moz-animation: inputHighlighter 0.3s ease
+  animation: inputHighlighter 0.3s ease
+
+
+// /* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter 
+  from
+    background: #B0BDCC
+  to
+    width: 0 
+    background: transparent 
+
+@-moz-keyframes inputHighlighter 
+  from
+    background: #B0BDCC
+  to
+    width: 0 
+    background: transparent
+
+@keyframes inputHighlighter 
+  from
+    background: #B0BDCC
+  to
+    width: 0 
+    background: transparent 

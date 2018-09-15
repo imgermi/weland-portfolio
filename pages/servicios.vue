@@ -56,7 +56,7 @@
         </div>      
       </div>
     </section>
-    <section class="trabajos__listado">
+    <section class="trabajos__listado apartado">
       <div class="container">
         <h4 class="section__title">Algunas de las cosas <br> que hicimos</h4>
         <div class="trabajos-container">
