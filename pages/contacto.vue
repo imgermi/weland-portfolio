@@ -24,13 +24,13 @@
             <input type="text" required>
             <span class="highlight"></span>
             <span class="bar"></span>
-            <label>Nombre*</label>
+            <label>Nombre</label>
           </div>              
           <div class="group">      
             <input type="email" required>
             <span class="highlight"></span>
             <span class="bar"></span>
-            <label>Email*</label>
+            <label>Email</label>
           </div>
           <div class="group">      
             <input type="tel" required>
@@ -38,17 +38,20 @@
             <span class="bar"></span>
             <label>Tel</label>
           </div>
-          <div class="group">      
-            <input type="text" required>
-            <span class="highlight"></span>
-            <span class="bar"></span>
-            <label>Entre</label>
-          </div>
-          <div class="group">      
-            <input type="text" required>
-            <span class="highlight"></span>
-            <span class="bar"></span>
-            <label>Y</label>
+          <div class="pre-group">
+            <p>Rango de presupuesto</p>
+            <div class="group">      
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Entre</label>
+            </div>
+            <div class="group">      
+              <input type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Y</label>
+            </div>
           </div>
           <div class="group">      
             <textarea required rows="6"></textarea>

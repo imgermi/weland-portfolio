@@ -32,7 +32,7 @@
             <li>Lanzamiento</li>
           </ul>
           <!-- <a href="" class="btn">Ver más</a> -->
-          <nuxt-link to="/" class="btn__underlined">Ver más</nuxt-link>
+          <nuxt-link to="/trabajos/fucer-app" class="btn__underlined">Ver más</nuxt-link>
         </article>
       </div>
     </section>
@@ -44,7 +44,7 @@
         </article> 
         <article>
           <p>Trabajamos junto a startups y empresas construyendo estrategias enfocadas en las necesidades de su audiencia para ayudar a escalar su presencia online.</p>
-          <a href="" class="btn__underlined">Ver más</a>
+          <nuxt-link to="/servicios" class="btn__underlined">Ver más</nuxt-link>
         </article>
       </div>
     </section>

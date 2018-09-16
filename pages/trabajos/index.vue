@@ -20,34 +20,34 @@
     <section class="trabajos__listado">
       <div class="container">
         <div class="trabajos-container">
-          <nuxt-link to="" class="trabajos__listado--trabajo">
+          <nuxt-link to="/trabajos/vitroblock" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/vitroblock/vitroblock-mockup.jpg" alt="">
             <h3>Vitroblock</h3>
             <span>Consultoría Google Ads</span>
           </nuxt-link>
-          <nuxt-link to="" class="trabajos__listado--trabajo">
+          <nuxt-link to="/trabajos/vendexa" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/vendexa/vendexa-interiores-mockup.jpg" alt="">
             <h3>Vendexa Interiores</h3>
             <span>Tienda Online</span>
           </nuxt-link>
-          <nuxt-link to="" class="trabajos__listado--trabajo">
+          <nuxt-link to="/trabajos/fucer-app" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/fucer/fucer-mockup.jpg" alt="">
             <h3>Fucer App</h3>
             <span>Mobile App</span>
           </nuxt-link>
-          <nuxt-link to="" class="trabajos__listado--trabajo">
+          <nuxt-link to="/trabajos/standupweb" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/standupweb/standupweb-mockup.jpg" alt="">
             <h3>StandUpWeb</h3>
             <span>Online Course</span>
           </nuxt-link>
           <nuxt-link to="" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/autopartgo/autopartgo-mockup.jpg" alt="">
-            <h3>AutoPartGo</h3>
+            <h3>AutoPartGo (próximamente)</h3>
             <span>Sitio Web</span>
           </nuxt-link>
           <nuxt-link to="" class="trabajos__listado--trabajo">
             <img src="~/assets/images/case-studies/panden/panden-mockup.jpg" alt="">
-            <h3>Panden Industrial</h3>
+            <h3>Panden Industrial (próximamente)</h3>
             <span>Sitio Web</span>
           </nuxt-link>          
         </div>
